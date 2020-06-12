@@ -10,11 +10,11 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="zerosec_agency",
+    password="qwertyuiop",
     like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109' , 'tehran', 'iran',],
+    comments_per_day=50,
+    tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109' , 'tehran', 'iran', 'طبیعت' , 'فالو' , 'سلبریتی' , 'کرونا' , 'برنامه_نویس' , 'سکسی' , 'رل' , 'عشق' , 'الناز_گلرخ'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
